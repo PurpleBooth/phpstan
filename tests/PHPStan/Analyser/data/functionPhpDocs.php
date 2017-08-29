@@ -35,6 +35,7 @@ use SomeNamespace\Consecteur;
  * @param true $boolTrue
  * @param false $boolFalse
  * @param bool $trueBoolean
+ * @param int|null $mismatchedParameterNotNullable
  * @param bool $parameterWithDefaultValueFalse
  * @return Foo
  */
@@ -68,6 +69,7 @@ function doFoo(
 	bool $boolTrue,
 	bool $boolFalse,
 	bool $trueBoolean,
+	int $mismatchedParameterNotNullable,
 	$parameterWithDefaultValueFalse = false
 )
 {

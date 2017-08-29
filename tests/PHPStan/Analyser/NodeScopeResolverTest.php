@@ -1839,6 +1839,10 @@ class NodeScopeResolverTest extends \PHPStan\TestCase
 				'MethodPhpDocsNamespace\Bar',
 				'$barFunctionResult',
 			],
+			[
+				'int',
+				'$mismatchedParameterNotNullable',
+			],
 		];
 	}
 
